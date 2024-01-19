@@ -1,10 +1,10 @@
-package project.ofdan.service;
+package project.hello.service;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import project.ofdan.domain.Member;
-import project.ofdan.repository.MemoryMemberRepository;
+import project.hello.domain.Member;
+import project.hello.repository.MemoryMemberRepository;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;

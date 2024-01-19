@@ -1,7 +1,7 @@
-package project.ofdan.service;
+package project.hello.service;
 
-import project.ofdan.domain.Member;
-import project.ofdan.repository.MemberRepository;
+import project.hello.domain.Member;
+import project.hello.repository.MemberRepository;
 
 import java.util.List;
 import java.util.Optional;

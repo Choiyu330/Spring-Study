@@ -1,9 +1,10 @@
-package project.ofdan.repository;
+package project.hello.repository;
 
-import project.ofdan.domain.Member;
+import project.hello.domain.Member;
 
 import java.util.List;
 import java.util.Optional;
+
 
 public interface MemberRepository {
     Member save(Member member);

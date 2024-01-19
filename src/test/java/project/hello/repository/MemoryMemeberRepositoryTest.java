@@ -1,8 +1,8 @@
-package project.ofdan.repository;
+package project.hello.repository;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
-import project.ofdan.domain.Member;
+import project.hello.domain.Member;
 
 import java.util.List;
 

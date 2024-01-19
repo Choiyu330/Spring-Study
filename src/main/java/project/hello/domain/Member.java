@@ -1,4 +1,4 @@
-package project.ofdan.domain;
+package project.hello.domain;
 
 public class Member {
 

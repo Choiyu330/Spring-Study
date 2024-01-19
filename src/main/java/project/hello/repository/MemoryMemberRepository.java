@@ -1,6 +1,6 @@
-package project.ofdan.repository;
+package project.hello.repository;
 
-import project.ofdan.domain.Member;
+import project.hello.domain.Member;
 
 import java.util.*;
 

@@ -8,7 +8,7 @@ import java.util.Optional;
 
 public class MemberService {
 
-    private final MemberRepository memberRepository;
+    private MemberRepository memberRepository;
 
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;

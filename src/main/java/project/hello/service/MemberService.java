@@ -1,6 +1,5 @@
 package project.hello.service;
 
-import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import project.hello.domain.Member;
 import project.hello.repository.MemberRepository;
@@ -21,7 +20,6 @@ public class MemberService {
     public Long join(Member member) {
         /* 중복 회원 검증 */
         validateDuplicateMember(member);
-
         memberRepository.save(member);
         return member.getId();
     }
